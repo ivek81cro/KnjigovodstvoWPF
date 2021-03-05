@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="c04a6bb7-9aa9-47b7-9dff-285d1a64bcd7" ChangeDateTime="03/05/2021 22:05:37">
+    <Property Name="ElementName" Value="[dbo].[User].[Naziv]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aa01435a-414f-463c-a7d8-8ecc6b86ce1d" ChangeDateTime="03/05/2021 22:05:40">
+    <Property Name="ElementName" Value="[dbo].[User].[Ulica]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Street" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3d5c720d-c13a-4f8a-bd90-baf46b674fa9" ChangeDateTime="03/05/2021 22:05:46">
+    <Property Name="ElementName" Value="[dbo].[User].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Naziv" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="264af5c1-aaf6-4948-ba8a-bef2332a2f69" ChangeDateTime="03/05/2021 22:05:48">
+    <Property Name="ElementName" Value="[dbo].[User].[Street]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Ulica" />
+  </Operation>
+</Operations>
